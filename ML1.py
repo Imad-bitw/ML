@@ -12,10 +12,7 @@ from sklearn.metrics import ConfusionMatrixDisplay
 from sklearn.metrics import RocCurveDisplay
 from sklearn.metrics import PrecisionRecallDisplay
 from sklearn.metrics import precision_score, recall_score
-import docx2txt
-from PIL import Image 
-from PyPDF2 import PdfFileReader
-import pdfplumber
+
 
 def main():
 	st.title("Machine Learning Project")
