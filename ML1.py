@@ -1,4 +1,5 @@
 from numpy.core.numeric import True_
+from PIL import Image
 from sklearn import metrics
 import matplotlib.pyplot as plt
 import streamlit as st
@@ -14,7 +15,8 @@ from sklearn.metrics import RocCurveDisplay
 from sklearn.metrics import PrecisionRecallDisplay
 from sklearn.metrics import precision_score, recall_score
 
-
+image = Image.open('Logo_DSEF.png')
+st.image(image, caption='DSEF')
 def main():
 	st.title("Machine Learning Project")
 	st.write("""
